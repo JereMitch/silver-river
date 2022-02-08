@@ -1,0 +1,109 @@
+.font {
+    font-family: 'Poppins';
+}
+
+.thanks__hero-section {
+    color: #fff;
+    padding: 160px 0;
+    background-color: rgba(250, 250, 250, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__hero-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.thanks-row {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks__hero-text-wrapper {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.thanks-top-line {
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.thanks-heading {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #050505;
+    letter-spacing: 1.5px;
+}
+
+.thanks-dark {
+    color: #050505;
+}
+
+.thanks-darkBg {
+    background-color: rgba(212, 212, 212, 0.4);
+}
+
+.thanks__hero-subtitle {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    color: #050505;
+}
+
+.thanks-btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap; 
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    padding: 12px 64px;
+    font-size: 20px;
+    background-color: #424242;
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-btn:hover {
+    background-color: rgba(250, 250, 250, 0.4);
+    color: #242424;
+    border: none;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 991px) {
+    .thanks-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thanks__hero-text-wrapper {
+        padding-bottom: 65px;
+    }
+
+    .thanks-col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}

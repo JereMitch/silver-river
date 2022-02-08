@@ -1,0 +1,5 @@
+.service-card {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 10rem 2rem 0;
+}

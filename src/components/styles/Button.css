@@ -1,0 +1,117 @@
+.font {
+  font-family: 'Poppins';
+}
+
+.btn {
+padding: 8px 20px;
+border-radius: 4px;
+outline: none;
+border: none;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.btn--primary {
+background-color: rgb(250, 250, 250);
+color: #242424;
+border: 1px solid rgb(250, 250, 250);
+}
+
+.btn--outline {
+background-color: transparent;
+color: #050505;
+padding: 8px 20px;
+border: 1px solid #050505;
+}
+
+.btn--outline:hover {
+background-color: #424242;
+color: rgb(250, 250, 250);
+border: none;
+transform: all 0.2s ease-out;
+}
+
+.btn--medium {
+padding: 8px 20px;
+font-size: 18px;
+}
+
+.btn--large {
+padding: 12px 26px;
+font-size: 20px;
+}
+
+.btn--mobile {
+text-align: center;
+border-radius: 4px;
+width: 80%;
+text-decoration: none;
+font-size: 1.5rem;
+background-color: transparent;
+color: rgb(250, 250, 250);
+padding: 14px 20px;
+border: 1px solid rgb(250, 250, 250);
+transition: all 0.3s ease-out;
+}
+
+.btn--wide {
+padding: 12px 64px;
+font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover{
+transition: all 0.3s ease-in;
+background: rgba(250, 250, 250, 0.1);
+color: #242424;
+
+}
+
+.btn--wide:hover {
+color: rgba(250, 250, 250, 0.1);
+background-color: rgba(250, 250, 250, 0.1);
+color: #050505;
+transform: scale(1.1);
+transition: all 0.3s ease-out;
+}
+
+.btn-link {
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+padding: 8px 16px;
+height: 100%;
+width: 100%;
+}
+
+.charcoal {
+background-color: #424242;
+color: rgb(250, 250, 250);
+border: none;
+}
+
+
+.primary {
+background-color: #242424;
+color: rgb(250, 250, 250);
+border: none;
+}
+
+.primary:hover {
+background-color: rgb(250, 250, 250);
+color: #242424;
+border: none;
+}
+
+
+.btn-link {
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+padding: 8px 16px;
+height: 100%;
+width: 100%;
+}
