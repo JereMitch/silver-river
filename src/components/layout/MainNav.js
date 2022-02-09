@@ -71,7 +71,7 @@ function MainNav() {
                   Payment &amp; Insurance
                 </Link>
               </li>
-              <li className="nav-btn">
+              <li className="nav-item">
                 {button ? (
                   <Link
                     to="/services/#appt-section"

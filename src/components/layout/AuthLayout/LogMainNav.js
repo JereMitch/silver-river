@@ -100,12 +100,12 @@ function LogMainNav() {
                   </Link>
                 )}
               </li>
-          <li classname='nav-item'>
+          <li>
           <DropdownButton title="Profile">
             <p className='p' ><strong>Name:</strong> Jeremy</p> <br/>
             <p className='p' ><strong>Email:</strong> {currentUser.email}</p> <br/>
             <p className='p' ><strong>Balance:</strong> $56.90</p><br/>
-            <p className='p' ><strong>Next Apppointment:</strong> <br/>Jan. 14, 2022</p>
+            <p className='p' ><strong>Next Apppointment:</strong> <br/>Mar. 14, 2022</p>
               <Logout className='login-links' />             
           </DropdownButton>
           </li>

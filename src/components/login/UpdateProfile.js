@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Form, Button as Buttons, Card as btCard, Alert } from "react-bootstrap";
+import { Form, Button as Buttons, Card as BtCard, Alert } from "react-bootstrap";
 import { useAuth } from '../contexts/AuthContext'
 import { Link, useHistory } from 'react-router-dom'
 
@@ -44,8 +44,8 @@ export default function UpdateProfile() {
 
   return (
     <>
-      <btCard>
-        <btCard.Body>
+      <BtCard>
+        <BtCard.Body>
           <h2 className="text-center mb-5">Update Profile</h2>
           {error && <Alert variant='danger'>{error}</Alert>}
           <Form onSubmit={handleSubmit}>
@@ -69,8 +69,8 @@ export default function UpdateProfile() {
               Update
             </Buttons>
           </Form>
-        </btCard.Body>
-      </btCard>
+        </BtCard.Body>
+      </BtCard>
       <div className="w-100 text-center mt-2">
         <Link to='/l'>Cancel</Link>
       </div>

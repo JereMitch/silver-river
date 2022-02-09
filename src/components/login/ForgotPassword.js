@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Form, Button as Buttons, Card as btCard, Alert } from "react-bootstrap";
+import { Form, Button as Buttons, Card as BtCard, Alert } from "react-bootstrap";
 import { useAuth } from '../../contexts/AuthContext'
 import { Link } from 'react-router-dom'
 
@@ -35,8 +35,8 @@ function ForgotPassword() {
       <div
       className='w-100' style={{maxWidth: '400px'}}
       >
-      <btCard>
-        <btCard.Body>
+      <BtCard>
+        <BtCard.Body>
           <h2 className="text-center mb-5">Password Reset</h2>
           {error && <Alert variant='danger'>{error}</Alert>}
           {message && <Alert variant='success'>{message}</Alert>}
@@ -52,8 +52,8 @@ function ForgotPassword() {
               <div className="w-100 text-center mt-2">
                 <Link to='/login'>Login</Link>
               </div>  
-        </btCard.Body>
-      </btCard>
+        </BtCard.Body>
+      </BtCard>
       </div>
     </div>
       <div className="w-100 text-center mt-2">
